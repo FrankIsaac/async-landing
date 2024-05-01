@@ -41,24 +41,6 @@ async function fetchData(urlApi) {
     }
 })();
 
-/*
-const url = 'https://youtube-v31.p.rapidapi.com/search?channelId=UCFmMw7yTuLTCuMhpZD5dVsg&part=snippet%2Cid&order=date&maxResults=50';
-const options = {
-	method: 'GET',
-	headers: {
-		'X-RapidAPI-Key': 'e615ba7933msh17a261de5b82be8p130e77jsnc44a862c36c8',
-		'X-RapidAPI-Host': 'youtube-v31.p.rapidapi.com'
-	}
-};
-
-try {
-	const response = await fetch(url, options);
-	const result = await response.text();
-	console.log(result);
-} catch (error) {
-	console.error(error);
-}
-*/
 
 
 
